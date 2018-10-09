@@ -1,0 +1,28 @@
+//============================================================================
+// Name        : 6.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	int h;
+	cout << "Enter a height: ";
+	cin >> h;
+
+	int height = h;
+	h--;
+
+	for (int a = 0; a<h; a++){
+
+	}
+
+
+
+	return 0;
+}

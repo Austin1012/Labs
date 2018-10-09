@@ -1,0 +1,39 @@
+//============================================================================
+// Name        : 6.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	int h;
+	cout << "Enter a height: ";
+	cin >> h;// save for bottom row
+
+	while (h <3 or h > 8){
+		cout << "Try again: ";
+		cin >> h;
+	}
+	int H = h;// use to decrement rows
+
+	for (int b = 0; b<3; b++){
+		for (int a = 0; a<h-1; a++)
+			cout << " ";
+		cout << "*";
+	}
+	cout << endl;
+
+	for (int c = 0; c<3; c++){
+		for (int d = 0; d < H-1; d++)
+	}
+
+
+
+
+	return 0;
+}

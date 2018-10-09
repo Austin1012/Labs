@@ -1,0 +1,43 @@
+//============================================================================
+// Name        : 6.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	int h;
+	int s = 1;
+	cout << "Enter a pyramid height: ";
+	cin >> h;
+
+	if (h <= 2 or h >=9){
+		cout << "Try a number between 3 and 8: ";
+		cin >> h;
+	}
+
+	for (int i = 0; i < h-1; i++)
+		cout << " ";
+
+	cout << "*" << endl;
+	for (int l = 0; l < h; l++){
+		cout << " ";
+		cout << "*";
+		for (int a = 0; a < s; a++){
+			cout <<" ";
+			s += 2;
+		}
+
+	}
+
+
+
+
+
+	return 0;
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Testing grounds/src/Days of year.cpp&apos; to &apos;testing grounds.cpp&apos;" description="Rename resource &apos;Days of year.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Days of year.cpp" name="testing grounds.cpp" stamp="1538399065858" updateReferences="true"/>
+</session>

@@ -1,0 +1,8 @@
+09:23:47 **** Incremental Build of configuration Debug for project Lab 2.3.3 ****
+Info: Internal Builder is used for build
+g++ -o "Lab 2.3.3.exe" "src\\Lab 2.3.3.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Lab 2.3.3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+
+09:23:47 Build Failed. 1 errors, 0 warnings. (took 475ms)
+

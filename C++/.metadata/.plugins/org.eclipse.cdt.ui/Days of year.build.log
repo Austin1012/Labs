@@ -1,0 +1,7 @@
+10:00:23 **** Incremental Build of configuration Debug for project Days of year ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Days of year.o" "..\\src\\Days of year.cpp" 
+g++ -o "Days of year.exe" "src\\Days of year.o" 
+
+10:00:23 Build Finished. 0 errors, 0 warnings. (took 741ms)
+

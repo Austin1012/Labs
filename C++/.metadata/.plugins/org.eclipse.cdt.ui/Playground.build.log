@@ -1,0 +1,37 @@
+09:38:02 **** Incremental Build of configuration Debug for project Playground ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Playground.o" "..\\src\\Playground.cpp" 
+..\src\Playground.cpp:20:11: error: stray '\' in program
+  cout << a\n << b\n << c\n << d\n << e\n << endl;
+           ^
+..\src\Playground.cpp:20:18: error: stray '\' in program
+  cout << a\n << b\n << c\n << d\n << e\n << endl;
+                  ^
+..\src\Playground.cpp:20:25: error: stray '\' in program
+  cout << a\n << b\n << c\n << d\n << e\n << endl;
+                         ^
+..\src\Playground.cpp:20:32: error: stray '\' in program
+  cout << a\n << b\n << c\n << d\n << e\n << endl;
+                                ^
+..\src\Playground.cpp:20:39: error: stray '\' in program
+  cout << a\n << b\n << c\n << d\n << e\n << endl;
+                                       ^
+..\src\Playground.cpp: In function 'int main()':
+..\src\Playground.cpp:20:12: error: expected ';' before 'n'
+  cout << a\n << b\n << c\n << d\n << e\n << endl;
+            ^
+..\src\Playground.cpp:15:8: warning: unused variable 'b' [-Wunused-variable]
+  float b = 2.3;
+        ^
+..\src\Playground.cpp:16:8: warning: unused variable 'c' [-Wunused-variable]
+  float c = 2.123456;
+        ^
+..\src\Playground.cpp:17:8: warning: unused variable 'd' [-Wunused-variable]
+  float d = 2.123456;
+        ^
+..\src\Playground.cpp:18:8: warning: unused variable 'e' [-Wunused-variable]
+  float e = 2.123456;
+        ^
+
+09:38:02 Build Failed. 6 errors, 4 warnings. (took 391ms)
+
